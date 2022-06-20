@@ -1,3 +1,15 @@
 body {
     background-color: rgb(253, 251, 251)
 }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+img {
+    margin-top: 200px;
+    border-radius: 23%;
+}
