@@ -1,15 +1,87 @@
 body {
-    background-color: rgb(253, 251, 251)
+    background-color: rgb(253, 251, 251);
+    margin: 0%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+
 }
 
+nav {
+    background-color: aliceblue;
+    padding-right: 3%;
+    margin: 5px;
+    color: black;
+}
 
+.barra-de-navegacao {
+    display: inline-block;
+}
+ 
 img {
-    margin-top: 200px;
-    border-radius: 30%;
+    margin-top: 140px;
+    margin-left: 580px;
+    border-radius: 50%;
 }
+
+ol {
+    display: inline-block;
+}
+
+.listas-licoes {
+    background-color: bisque;
+    padding-left: 10px;
+    width: 350px;
+    display: inline-block;
+    margin: 10px 30px 0px 30px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    float: right;
+
+}
+
+.licoes-a-aprender {
+    display: inline-block;
+    color: rgb(66, 65, 65);
+
+}
+
+main {
+    display: inline-block;
+}
+
+p {
+    padding: 0px 0px 0px 10px;
+    display: inline-block;
+}
+
+.lado-esquerdo {
+    background-color: bisque;
+    width: 440px;
+    display: inline-block;
+    color: rgb(66, 65, 65);
+    margin-left: 20px;
+    letter-spacing: 1px;
+    line-height: 17px;
+
+}
+
+.lado-direito {
+    background-color: bisque;
+    width: 400px;
+    display: inline-block;
+    margin: 0px 0px 0px 50px;
+    color: rgb(66, 65, 65);
+    letter-spacing: 1px;
+    line-height: 17px;
+}
+

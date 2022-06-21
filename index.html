@@ -12,15 +12,16 @@
         <h1 id="titulo">Lições aprendidas na Trybe</h1>
         <nav>
             <ul>
-                <li>Inicio |</li>
-                <li>Foto de perfil |</li>
-                <li>Lições aprendidas |</li>
-                <li>Lições a aprender |</li>
+                <li class="barra-de-navegacao">Inicio |</li>
+                <li class="barra-de-navegacao">Foto de perfil |</li>
+                <li class="barra-de-navegacao">Lições aprendidas |</li>
+                <li class="barra-de-navegacao">Lições a aprender</li>
             </ul>
         </nav>
     </header>   
     <img id="minha_foto" src="./img/profile.jpg" width="200px" alt>
     <main>
+    <div class="listas-licoes">
         <ol id="licoes_aprendidas">
             <li>Unix</li>
             <li>Git</li>
@@ -33,7 +34,7 @@
             <li>Inspect</li>
             <li>Semantic HTML</li>
         </ol>
-        <ul id="licoes_a_aprender">
+        <ul class="licoes-a-aprender" id="licoes_a_aprender">
             <li>Javascript</li>
             <li>DOM</li>
             <li>Forms</li>
@@ -45,19 +46,26 @@
             <li>Node</li>
             <li>SQL</li>
         </ul>
-        <article>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minima et blanditiis soluta suscipit, 
-            quod harum, vero excepturi deserunt qui reprehenderit animi molestias officia aperiam nisi! Corrupti 
-            magnam enim quo.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minima et blanditiis soluta suscipit, 
-            quod harum, vero excepturi deserunt qui reprehenderit animi molestias officia aperiam nisi! Corrupti 
-            magnam enim quo.
+    </div>
+        <article class="lado-esquerdo">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minima et blanditiis soluta suscipit, 
+                quod harum, vero excepturi deserunt qui reprehenderit animi molestias officia aperiam nisi! Corrupti 
+                magnam enim quo.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minima et blanditiis soluta suscipit, 
+                quod harum, vero excepturi deserunt qui reprehenderit animi molestias officia aperiam nisi! Corrupti 
+                magnam enim quo.
+            </p>
         </article>
     </main>
-    <aside>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minima et blanditiis soluta suscipit, 
-        quod harum, vero excepturi deserunt qui reprehenderit animi molestias officia aperiam nisi! Corrupti 
-        magnam enim quo. Lorem.
+    <aside class="lado-direito">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minima et blanditiis soluta suscipit, 
+            quod harum, vero excepturi deserunt qui reprehenderit animi molestias officia aperiam nisi! Corrupti 
+            magnam enim quo. Lorem.
+        </p>
     </aside>
 </body>
 <footer id="rodape">
