@@ -13,7 +13,6 @@ header {
     text-align: center;
     font-size: 18px;
     letter-spacing: 1px;
-
 }
 
 nav {
@@ -28,9 +27,10 @@ nav {
 }
  
 img {
-    margin-top: 140px;
-    margin-left: 580px;
+    margin-top: 150px;
+    margin-left: 100px;
     border-radius: 50%;
+    position: absolute;
 }
 
 ol {
@@ -38,21 +38,22 @@ ol {
 }
 
 .listas-licoes {
-    background-color: bisque;
+    background-color: gray;
     padding-left: 10px;
     width: 350px;
     display: inline-block;
     margin: 10px 30px 0px 30px;
     letter-spacing: 1px;
     line-height: 20px;
-    float: right;
-
+    color: white;
+    position: absolute;
+    left: 0%;
+    top: 55%;
 }
 
 .licoes-a-aprender {
     display: inline-block;
-    color: rgb(66, 65, 65);
-
+    color: white;
 }
 
 main {
@@ -65,23 +66,51 @@ p {
 }
 
 .lado-esquerdo {
-    background-color: bisque;
+    background-color: gray;
     width: 440px;
+    height: 230px;
     display: inline-block;
-    color: rgb(66, 65, 65);
     margin-left: 20px;
     letter-spacing: 1px;
     line-height: 17px;
-
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    top: 57%;
 }
 
 .lado-direito {
-    background-color: bisque;
-    width: 400px;
+    background-color: gray;
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
     display: inline-block;
     margin: 0px 0px 0px 50px;
-    color: rgb(66, 65, 65);
+    color: white;
     letter-spacing: 1px;
     line-height: 17px;
+    position: absolute;
+    top: 26%;
+    right: 1%;
+    z-index: 1;
+
 }
 
+table {
+    position: absolute;
+}
+
+footer{
+    position: absolute;
+}
+
+.descricao-sobre-mim{
+    /* background-color: aqua; */
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
